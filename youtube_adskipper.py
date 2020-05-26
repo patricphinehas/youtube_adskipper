@@ -5,11 +5,14 @@ import time
 # faster version
 # lopping over the template matching
 
-# reading the templates
-template3 = cv2.imread('template3.png', 0)
-template4 = cv2.imread('template4.png', 0)
-template5 = cv2.imread('template5.png', 0)
-template6 = cv2.imread('template6.png', 0)
+# reading the templates and can add more images and keep structural integrity
+try:
+    template3 = cv2.imread('./templates/template3.png', 0)
+    template4 = cv2.imread('./templates/template4.png', 0)
+    template5 = cv2.imread('./templates/template5.png', 0)
+    template6 = cv2.imread('./templates/template6.png', 0)
+except expression as identifier:
+    print("error loading images for comaprison")
 
 # setting the threshold for confidence in template matching
 threshold = 0.7
