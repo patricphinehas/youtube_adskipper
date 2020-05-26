@@ -16,13 +16,3 @@ It does not have any graphical user interface(GUI). I have used a very ingenious
 
 guess what, can add more images and can reuse code
 
-
-root
-|-templates
-|   |-template3
-|   |-template4
-|   |-template5
-|   |-template6
-|
-|-youtube_adskipper.py
-|-README.md
